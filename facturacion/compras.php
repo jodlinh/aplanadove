@@ -43,7 +43,7 @@
     
 <div class="container mt-3">
   <div class="row rounded-top">
-    <h4 class="bg-success text-white p-2 rounded-top mb-0">Compras</h4>
+    <h4 class="bg-primary text-white p-2 rounded-top mb-0">Compras</h4>
   </div>
   <div class="row border rounded-bottom" > 
     <form name="formulario" id="formulario">
@@ -61,7 +61,7 @@
             <input type="text" class="typeahead form-control" id="proveedor"   placeholder="Proveedor" autocomplete="off">
             <label for="proveedor">Proveedor</label>
           </div>
-          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn btn-secondary " data-bs-toggle="modal">
             <span class="material-symbols-outlined">add_circle</span>  
           </button>  
         </div> 
@@ -85,7 +85,7 @@
           </select>     
         </div>
         <div class="col">
-          <button type="button" class="btn  btn-sm" value="Agregar" id="btnNuevoProducto"> <span class="material-symbols-outlined text-primary">add_circle</span></button>
+          <button type="button" class="btn  btn-sm" value="Agregar" id="btnNuevoProducto"> <span class="material-symbols-outlined text-secondary">add_circle</span></button>
         </div>
       </div>
             
@@ -111,7 +111,7 @@
 
 
       <div class="row mt-3 d-grid gap-1 ms-2 me-2">    
-          <button type="button" class="btn btn-primary" id="vender">Guardar</button> 
+          <button type="button" class="btn btn-secondary" id="vender">Guardar</button> 
       </div>
 
 
@@ -164,7 +164,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary" id="guardarCliente">Guardar</button>
+            <button type="button" class="btn btn-secondary" id="guardarCliente">Guardar</button>
           </div>
         </div>
       </div>
